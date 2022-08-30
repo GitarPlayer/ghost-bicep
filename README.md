@@ -3,11 +3,9 @@
 A one-click [Ghost](https://ghost.org/)  deployment on [Azure web app for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/). The architecture is described in much greated detail below.
 
 ## Deploy
-Originally I my plan was that the whole solution would be deployable with one click. But since this is a private repo the button below will not work.  
-
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGitarPlayer%2Fghost-azure-bicep%2Fmaster%2Fghost.json)
 
-So I tested the deployment in two ways:
+I tested the deployment in two ways:
 
 ### Deploy a custom template in the Azure Portal
 1. Copy the raw content of the ghost.json file
